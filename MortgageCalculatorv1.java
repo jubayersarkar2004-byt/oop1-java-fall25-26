@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-public class MortgageCalculator {
+public class MortgageCalculatorv1 {
 
     public static void main(String[] args)
     {
