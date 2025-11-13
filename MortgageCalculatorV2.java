@@ -14,7 +14,7 @@ while(true) {
   if(sc.hasNextDouble())
     {
        Salary = sc.nextDouble();
-      System.out.println("your monthly saraly"+ Salary);
+      System.out.println("your monthly saraly = "+ Salary);
       if(Salary>100000)
       {
         System.out.println("You are eligible for loan");
