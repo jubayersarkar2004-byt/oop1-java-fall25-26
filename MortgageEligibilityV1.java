@@ -28,29 +28,37 @@ while(true) {
     }
   }
 
-  int creditScore;
+  
    //  Credit Score 
-        while (true) {
-            
+
+    int cS;
+        while(true) {
             System.out.println("Enter your credit score (0–500): ");
+
             if (sc.hasNextInt()) {
-                creditScore = sc.nextInt();
-                if (creditScore >= 0 && creditScore <= 500) {
-                    System.out.println("Your credit score: " + creditScore);
-                    if (creditScore >= 300) {
-                        System.out.println("You are eligible for loan based on credit score.");
+               cS = sc.nextInt();
+                if (cS >= 0 && cS <= 500) {
+                    System.out.println("Your credit score: " + cS);
+
+                    if (cS >= 300) {
+                        System.out.println("You are eligible for a loan based on credit score.");
                     } else {
-                        System.out.println(" You are not eligible for loan (score below 300).");
+                        System.out.println("You are not eligible for a loan (score below 300).");
                     }
+
+    
                     break;
+
                 } else {
-                    System.out.println(" Credit score must be between 0 and 500.");
+                    System.out.println("Credit score must be between 0 and 500. Try again.");
                 }
+
             } else {
-                System.out.println(" Invalid input! Please enter an integer value for credit score.");
-                sc.next(); // clear invalid input
+                System.out.println("Invalid input! Please enter an integer value for credit score.");
+              
             }
         }
+
   
   
 
@@ -67,29 +75,6 @@ while(true) {
           
         }
       }
-
-          System.out.println("Enter loan amount: ");
-      double p = sc.nextDouble();//p
-
-    System.out.println("Enter interest rate:");
-    float r = sc.nextFloat();//r
-
-    System.out.println("Enter loan term (in years):");
-    int m = sc.nextInt();
-
-    //calculation 
-
-     float interest =((r/100)/12);
-     //System.out.println("interest" + interest);
-
-     int n = (m*12);
-     //System.out.println("n" + n);
-     double pow= Math.pow((1+interest), n);
-
-     double payable = p* ((interest*pow)/(pow-1.00));
-     
-     System.out.println("payeble amount" + payable);
-
 
         
 
