@@ -6,13 +6,7 @@ public class ReferenceTypes {
 
         Date now = new Date();// Create a Date object representing the current date and time
 
-        System.out.println("Todays date:" + now);
-
-        // Example of String reference type
-        String greeting = "Hello, World!";
-        System.out.println(greeting);
-  
-
+        System.out.println("Todays date:" + now);// Print the current date and time
 
 
 
