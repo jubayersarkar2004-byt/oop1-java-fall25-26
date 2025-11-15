@@ -30,17 +30,17 @@ while(true) {
 
   
    //  Credit Score 
-    int score1;
+   int schore1;
         
         while (true) {
           
             System.out.println("Enter your credit score (0–500): ");
-            if (sc.hasNextInt()) {
-              
-                    score1 = sc.nextInt();
-                    if (score1 >= 0 && score1 <= 500) {
-                        System.out.println("Your credit score: " + score1);
-                        if (score1 >= 300) {
+            if (sc.hasNextInt()) 
+              {
+                 schore1 = sc.nextInt();
+                    if (schore1 >= 0 && schore1 <= 500) {
+                        System.out.println("Your credit score: " + schore1);
+                        if (schore1 >= 300) {
                             System.out.println("You are eligible for loan based on credit score.");
                     } else {
                         System.out.println(" You are not eligible for loan (score below 300).");
@@ -51,8 +51,9 @@ while(true) {
                 }
             } else {
                 System.out.println(" Invalid input! Please enter an integer value for credit score.");
-                sc.close(); // clear invalid input
+            
             }
+            sc.next();
         } 
 
   
