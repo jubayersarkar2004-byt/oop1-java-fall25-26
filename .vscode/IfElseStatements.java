@@ -1,6 +1,10 @@
+import java.util.Scanner;
 public class IfElseStatements {
     public static void main(String[] args) {
-        int number = 15;
+        int number;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        number = sc.nextInt();
 
         // If-Else statement to check if the number is even or odd
         if (number % 2 == 0) {

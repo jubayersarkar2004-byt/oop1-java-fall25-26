@@ -8,7 +8,7 @@ public class SimpleLOginSystem {
 
         Scanner sc = new Scanner(System.in);
 
-        String correctPassword = "java123";
+        String correctPassword = "jub@yer2003";
         int attempts = 3;
         String input;
 

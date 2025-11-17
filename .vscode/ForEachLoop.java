@@ -11,7 +11,7 @@ public class ForEachLoop {
         for (int number : numbers) {
             System.out.println(number);
         }
-
+        // Incorrect for-each loop usage (will cause a compilation error)
         for (int j = numbers.length; j > 0; j--) {
             System.out.println(numbers[j]);
         }
