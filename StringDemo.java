@@ -16,7 +16,7 @@ public class  StringDemo {
         System.out.println(s1.length());
         System.out.println(s3.charAt(1));
 
-        System.out.println(s1.concat(s3));
+        System.out.println(s1.concat(s3));//s1+s3
         System.out.println(s1);
         System.out.println(s3);
 
@@ -27,18 +27,6 @@ public class  StringDemo {
         }
 
         if (s3.equals(s5)) {
-            System.out.println("yes");
-        } else {
-            System.out.println("No");
-        }
-
-        if (s3 == s4) {
-            System.out.println("yes");
-        } else {
-            System.out.println("No");
-        }
-
-        if (s3.equals(s4)) {
             System.out.println("yes");
         } else {
             System.out.println("No");

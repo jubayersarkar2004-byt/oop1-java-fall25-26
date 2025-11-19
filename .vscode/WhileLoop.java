@@ -14,7 +14,7 @@ public class WhileLoop {
         String input = "";
         while (!input.equals("exit")) {
             System.out.print("Type 'exit' to quit: ");
-            input = scanner.nextLine().toLowerCase().trim();
+            input = scanner.nextLine().toLowerCase().trim();// Normalize input
         }
 
         scanner.close();

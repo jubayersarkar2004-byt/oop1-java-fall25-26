@@ -19,7 +19,7 @@ public class Strings {
         String replacedString = str1.replace("World", "Java");
         System.out.println("Replaced String: " + replacedString);
 
-        // Convert to Uppercase
+        // Convert to Uppercase 
         String upperCaseString = str2.toUpperCase();
         System.out.println("Uppercase str2: " + upperCaseString);
 

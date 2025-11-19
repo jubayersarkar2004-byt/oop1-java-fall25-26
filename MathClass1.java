@@ -1,9 +1,9 @@
-public class MathClass {
+public class MathClass1 {
 
     public static void main(String[] args)
     {
        double num = 23.7;
-         System.out.println("Original number: " + num);
+         System.out.println("Original number:" + num);
 
          // Rounding the number
             long roundedNum = Math.round(num);

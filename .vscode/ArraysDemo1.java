@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArraysDemo {
+public class ArraysDemo1 {
     public static void main(String[] args) {
         int[] array = new int[5];
         array[0] = 10;
@@ -8,8 +8,8 @@ public class ArraysDemo {
         array[2] = 30;
         array[3] = 40;
 
-        System.out.println(array);
-        System.out.println(Arrays.toString(array));
+        System.out.println(array);// Incorrect line
+        System.out.println(Arrays.toString(array));// Correct line
 
         // Create an array of integers
         int[] numbers = { 10, 20, 30, 40, 50 };
