@@ -12,9 +12,9 @@ public class MultiDimArrays {
 
 
 
-   // System.out.println("Array elements: " + Arrays.toString(numbers));// for one dimensional array
+   System.out.println("Array elements: " + Arrays.toString(numbers));// for one dimensional array
    // for multi dimensional array
-   System.out.println(Arrays.deepToString(numbers));
+  // System.out.println(Arrays.deepToString(numbers));
 
 
         int[][] predefined = {
