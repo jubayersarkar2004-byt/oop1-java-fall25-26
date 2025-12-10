@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class NormalCalculator {
     public static void main(String[] args){
@@ -8,14 +7,41 @@ public class NormalCalculator {
 
 Scanner sc = new Scanner(System.in);
 
+double a = 0;
+double b = 0;
+char c;
+
 System.out.println("Enter value of a:");
-double a = sc.nextDouble();
+if(sc.hasNextDouble()) {
+
+  a = sc.nextDouble();
+
+} else {
+    System.out.println("Invalid input. Please enter a numeric value.");
+    sc.next();// clear the invalid input
+   return;// exit the program
+
+}
 
 System.out.println("Enter a method (+, -, /, *):");
-char c = sc.next().charAt(0);  // to take character input
+if(sc.hasNext()) {
+ c = sc.next().charAt(0);  // to take character input
+} else {
+    System.out.println("Invalid input. Please enter a valid operator.");
+    sc.next(); // clear the invalid input
+   return; // exit the program
+   
+}
 
 System.out.println("Enter value of b");
-double b= sc.nextDouble();     
+if(sc.hasNextDouble()) {
+ b = sc.nextDouble();
+} else {
+    System.out.println("Invalid input. Please enter a numeric value.");
+    sc.next(); // clear the invalid input
+  // return; // exit the program
+}
+   
 
 //applying switch case
 
@@ -26,7 +52,7 @@ switch (c) {
         break;
 
         case '-':
-        System.out.println("substraction:" + (a-b));
+        System.out.println("substraction:" + (a-b));// subtraction   
 
         break;
 
