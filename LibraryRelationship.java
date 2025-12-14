@@ -1,3 +1,38 @@
+
+//Write a Java program to represent the following relationships:
+
+//🔹 Scenario:
+
+//A Library has many Books
+
+//A Member has an Address
+
+//🔹 Requirements:
+
+//Use association relationship
+
+//Use fixed-size arrays
+
+//Each class must have:
+
+//private data members
+
+//constructors
+
+//necessary methods
+
+//Display output from the main() method
+
+//Do NOT use ArrayList
+
+//Do NOT use inheritance
+
+
+
+
+
+
+
 //Library has many books(one to many)
 
 class Book {
