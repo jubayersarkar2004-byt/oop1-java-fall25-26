@@ -78,6 +78,17 @@ class Person {
         return age;
 
     }
+
+    public  void setPp(Passport pp) {
+
+        this.pp = pp;
+    }
+
+    public Passport getPp(){
+
+
+        return pp;
+    }
          //constructor
 
     public Person(String name , int age, Passport pp){
@@ -91,7 +102,10 @@ class Person {
 
         System.out.println("Persone name:" + name);
         System.out.println("Age:"+age);
-        System.out.println("Passport Details:" + pp);
+        System.out.println("===>Passport Details<==="+
+        "\nPassport number:" +getPp().getPassportNum()+
+        "\nIssue Date:"+getPp().getIssueDate() +
+        "\nExpire Date:" + getPp().getExpireDate());
 
     }
  
@@ -113,6 +127,8 @@ obj2.showPassport();
 
 
 //exicute persone class 
+
+System.out.println("//person object");
 
 Person p1 = new Person("Jubayer", 20, obj1);
 p1.showPerson();;
