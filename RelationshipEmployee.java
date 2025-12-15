@@ -115,22 +115,20 @@ for(int i =0 ; i<count; i++){
 }
 
 public class RelationshipEmployee {
+    public static void main(String[] args){
 
- public static void main(String[] args){
+        Company company = new Company("Al-fursan", 3);
 
-Company company = new Company("Al-fursan", 3);
+        company.addEmployee(new Employee("abdullah",
+            new Position("Cahsier", 300000)));
 
-company.addEmployee(new Employee("abdullah",
-    new Position("Cahsier", 300000)));
-
-company.addEmployee(new Employee("jubayer",
-    new Position("manager", 25000)));
-    
-company.addEmployee(new Employee("fahim",
-    new Position("attendent", 5000)));    
-    
-    company.showDetails();
-
- }
+        company.addEmployee(new Employee("jubayer",
+            new Position("manager", 25000)));
+            
+        company.addEmployee(new Employee("fahim",
+            new Position("attendent", 5000)));    
+            
+        company.showDetails();
+    }
 
 }
