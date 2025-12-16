@@ -5,6 +5,8 @@ public class Mid3 {
         int productID = 1234;
         String productCode = productName + " "+ productID;
         System.out.println("Product Code: " + productCode);
+        System.out.println("Product Code Length: " + productCode.length());
+        System.out.println("Product ID:"+productID);
     }
 }
-
+    

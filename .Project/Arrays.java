@@ -20,6 +20,7 @@ public class Arrays {
  }
 
  int sum = 0;
+ // Calculate sum, average, largest and smallest
  for(int n : num) {
      sum += n;
  }
