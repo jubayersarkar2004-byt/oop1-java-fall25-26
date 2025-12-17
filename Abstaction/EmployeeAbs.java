@@ -51,6 +51,12 @@ class FullTimeEmploye extends Employee {
   if(extraHour>=8){
 
     netSalary = salary + (salary * 0.5);
+    System.out.println("congertes you have got extra bonus");
+
+   }
+   else{
+      
+    System.out.println("You did not get bonus !");
 
    }
      return netSalary;
