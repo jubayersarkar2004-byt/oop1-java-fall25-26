@@ -15,15 +15,15 @@ class BankAccount {
         balance = 0;
         rate = 0.0;
     }
-
+                                                //more that 2 constructor is constructor overloading 
     BankAccount(double balance) {
-        this.balance = balance;
-        rate = 3.0;
-    }
+        this.balance = balance;                        //constructor overloading 
+        rate = 3.0;                                           // ||
+    }                                                           // Method overloading
 
     BankAccount(double balance, double rate) {
         this.balance = balance;
-        this.rate = rate;
+        this.rate = rate;    
     }
 
     // Method Overloading
@@ -45,6 +45,7 @@ class SavingsAccount extends BankAccount {
 
     // Method Overriding
     @Override
+     
     double calculateInterest() {
         return balance * rate / 100;
     }
