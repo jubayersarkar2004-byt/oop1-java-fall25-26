@@ -1,3 +1,5 @@
+import Association.Student;
+
 public class ArrayObject {
     public static void main(String[] args) {
         // Declare the Array

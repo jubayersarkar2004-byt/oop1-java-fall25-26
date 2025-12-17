@@ -1,6 +1,8 @@
+package Association;
 
 
 // -------------------- CITY --------------------
+
 class City {
     private String name;
 

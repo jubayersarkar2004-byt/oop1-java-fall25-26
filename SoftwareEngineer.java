@@ -1,3 +1,5 @@
+import Association.Employee;
+
 public class SoftwareEngineer extends Employee {
 
     private double salary;
