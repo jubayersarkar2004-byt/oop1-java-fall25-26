@@ -149,10 +149,10 @@ class Library {
     return name;
  }
 
- public Address getAddress(){
+ //public Address getAddress(){
 
-    return address;
- }
+   // return address;
+ //}
 
  public Member(String name , Address address){
 
@@ -163,7 +163,7 @@ class Library {
  public void showMemberInfo(){
 
     System.out.println("Member Name:" + name);
-    System.out.println("Address:" + getAddress().toString());
+    System.out.println("Address:" + address);
 
  }
 

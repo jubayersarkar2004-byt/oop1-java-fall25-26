@@ -1,3 +1,4 @@
+package Association;
 
 //one to one 
 class Passport {
