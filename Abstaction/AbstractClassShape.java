@@ -3,6 +3,7 @@ package Abstaction;
 abstract class Shape {
     String color;
     
+    //abstract methodn
     abstract double calculateArea();
     abstract String displayShape();
     

@@ -1,4 +1,5 @@
 package Polymorphism;
+
 class Vehicle {
    //instance varible 
     String brand;

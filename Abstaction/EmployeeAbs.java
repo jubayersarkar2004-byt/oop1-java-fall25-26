@@ -15,7 +15,6 @@ abstract class Employee {
     return name;
 
    }
-
   //abstruct method
   public abstract double calculateSalary();
 
@@ -82,6 +81,11 @@ public class EmployeeAbs {
         Employee e1 = new FullTimeEmploye("Jubayer", 250000, 10);
        
         e1.showDetails();
+
+        System.out.println("-----employee 2 ----");
+        
+        Employee e2 = new FullTimeEmploye("Abdullah,Ahmed", 50000, 6);
+         e2.showDetails();
 
 
 

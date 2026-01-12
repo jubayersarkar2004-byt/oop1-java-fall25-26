@@ -181,7 +181,11 @@ public class LibraryRelationship {
         l1.addBook(new Book("OOp concepts"));
         l1.showLibrary();
 
-        Member m1 = new Member("Sarkar,Jubayer", new Address("B-10", "Dhaka"));
+
+        Member m1 = new Member("Sarkar,Jubayer" ,new Address("B-10", "Dhaka"));
         m1.showMemberInfo();
+
+       Member m2 = new Member("Abdullah", new Address("C-12", "Sanarper"));
+       m2.showMemberInfo();
     }
 }
