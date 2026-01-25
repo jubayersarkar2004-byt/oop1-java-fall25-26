@@ -1,4 +1,0 @@
-Advanced learner,Jubayer,12
-English First paper,Jubayer Ahmed,14
-C++ Book,Jhones paul,5
-Java Book,Wahidul Riyad,1
