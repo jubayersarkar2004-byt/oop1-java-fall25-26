@@ -1,0 +1,3 @@
+Ac-124656,Abdullah,2500000.0,20,Narayangonj,ahmed234@gmail.com,012656536,Savings,140000.0,700,false
+Ac-154935,Alan Walker,967116.0,51,America,alanwakar234@gmail.com,+3246556,Current,7800000.0,800,false
+AC-145656,Jhones Smith,32500.0,100,London,smith456@gmail.com,3965565,Loan,9210000.0,800,false
